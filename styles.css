@@ -1,0 +1,125 @@
+*{
+
+    margin:0;
+}
+header{
+    color:blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    letter-spacing:normal; ;
+}
+.border{
+    border: 10px solid cornflowerblue;
+    margin: 20px;
+}
+body{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 15px solid darkgoldenrod;
+}
+nav li{
+
+ display: inline;   
+}
+h2, h3{
+    color:coral;
+}
+.border2{
+
+    color: cornsilk;
+    background-color:cadetblue;
+    border: 10px solid darksalmon;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    
+    margin: 20px;
+}
+.border4{
+
+    border: 10px solid deeppink;
+    margin: 20px
+}
+.container{
+
+    width:80%;
+    margin:auto;
+
+}
+.blogpost{
+     display: flex;
+     align-content: flex-start;
+     flex-wrap: wrap
+     
+     
+}
+        .blog1{
+
+             margin: 10px;
+             width: 300px; border: 1px solid sandybrown; 
+             order: 5;
+             
+             
+        }
+        .blog2{
+
+            margin: 10px;
+            width: 300px; border: 1px solid sandybrown; 
+            order: 4;  
+        }
+
+        .blog3{
+
+            margin: 10px;
+            width: 300px; border: 1px solid sandybrown; 
+            order: 3;
+
+        }
+
+        .blog4{
+
+            margin: 10px;
+            width: 300px; border: 1px solid sandybrown;
+            order: 2; 
+
+        }
+
+        .blog5{
+
+            margin: 10px;
+            width: 300px; border: 1px solid sandybrown;
+            flex-basis: 0;
+            flex-grow: 1; 
+            order: 1; 
+            
+        }
+        
+        
+        
+    
+
+    
+
+
+
+@media screen and (max-width:600px){
+
+    body{
+    background-color:purple;
+    font-size: larger;  
+    }   
+    
+}
+@media screen and (min-width:1024px){
+
+    body{
+
+        background-color: springgreen;
+        font-size: smaller;
+    }
+    .border2{  
+        color:yellow;
+    }  
+}
